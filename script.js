@@ -12,6 +12,8 @@ function searchCountries() {
 	}); 
 }
 
+$('#search').click(searchCountries);
+
 function showCountriesList(resp) { 
 	countriesList.empty(); 
 	resp.forEach(function(item) { 
